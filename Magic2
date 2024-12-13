@@ -1,0 +1,24 @@
+import java.util.ArrayList
+
+class Main {
+    public static void main(String[]args){
+        ArrayList<String>animals = new ArrayList<>();
+        animals.add("lion");
+        animals.add("tiger");
+        animals.add("Cheetah");
+        System.out.println("==========Printing current Array==========");
+        System.out.println(animals);
+        animals.clear();
+        System.out.println("==========Printing cleared Array==========");
+        System.out.println("Array is empty");
+    }
+    else{
+        System.ot.println("the size of array:"+animals.six());
+        System.ot.println("adding more element"+animals.add("Dog"));
+        System.out.println(animals);
+        animals.remove(2);
+        System.out.println(animals);
+    }
+    }
+
+}
